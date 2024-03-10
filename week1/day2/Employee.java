@@ -1,0 +1,18 @@
+package week1.day2;
+
+public class Employee {
+	public static void main(String[] args) {
+		String employeeName = "Mohan";
+		long employeeId = 34932435;
+		double employeeSalary = 30000.89;
+		int employeeAge = 21;
+		float cgpa=7697.88776875f;
+		boolean eligibleToVote = true;
+		System.out.println("EmployeeName:" + employeeName);
+		System.out.println("EmployeeId:" + employeeId);
+		System.out.println("EmployeeSalary:" + employeeSalary);
+		System.out.println("EmployeeAge:" + employeeAge);
+		System.out.println("Vote:" + eligibleToVote);
+		System.out.println("cgpa:"+ cgpa);
+	}
+}
